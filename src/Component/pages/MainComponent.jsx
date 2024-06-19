@@ -4,7 +4,6 @@ import BarisButton from './BarisButton';
 import BarisButton1 from './BarisButton1';
 import NextHistory from '../Elements/NextHistory';
 import Timer from '../Elements/Timer';
-import images from '/FILE CODINGGGGGG/project/react-html/my-react-app/src/assets/images/tampilan.png'
 
 const App = () => {
   const [currentBox, setCurrentBox] = useState(1);
@@ -29,7 +28,7 @@ const App = () => {
       </div >
       <div className='flex-col  pb-5'>
       <div className='justify-center flex mb-5'>
-          <img src={images} alt="dadhau"  style={{ width: '100px', height: 'auto', borderRadius: '8px' }}/>
+          <img src={"/assets/images/tampilan.png"} alt="dadhau"  style={{ width: '100px', height: 'auto', borderRadius: '8px' }}/>
         </div>
       <div className='justify-center flex'>
       <NextHistory onClick={nextBox} /> 
